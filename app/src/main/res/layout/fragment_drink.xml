@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drink_Fragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+
+        android:id="@+id/gl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bakeground"
+        android:dividerHeight="10dp"
+        tools:listitem="@layout/row" />
+
+
+</FrameLayout>

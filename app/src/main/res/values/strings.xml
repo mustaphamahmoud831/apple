@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">apple</string>
+    <string name="home_food_tab_meal">Meal</string>
+    <string name="home_food_tab_pizza">Pizza</string>
+    <string name="home_food_tab_sandwitch">Sandwitch</string>
+    <string name="home_food_tab_crepe">Crepe</string>
+
+    <string name="crepe_menu_layout_Burger_Crepe">Burger Crepe</string>
+    <string name="crepe_menu_layout_Sausage_Crepe">Sausage Crepe</string>
+    <string name="crepe_menu_layout_Kofta_crepe">Kofta crepe</string>
+    <string name="crepe_menu_layout_Nutella">Nutella and banana crepe</string>
+    <string name="crepe_menu_layout_Beef_crepe">Beef crepe</string>
+    <string name="crepe_menu_layout_Chicken_crepe">Chicken crepe</string>
+
+
+    <string name="meal_menu_layout_kebab_meal">Kebab Meal</string>
+    <string name="meal_menu_layout_chicken_meal">Half Chicken Meal</string>
+    <string name="meal_menu_layout_shish_tawook">Shish Tawook Meal</string>
+    <string name="meal_menu_layout_mix_grill">Mix Grill Meal</string>
+    <string name="meal_menu_layout_grilled_liver">Grilled Liver Meal</string>
+    <string name="meal_menu_layout_grilled_chicken">Grilled Chicken Meal</string>
+
+
+    <string name="pizza_menu_layout_Margherita_Pizza">Margherita Pizza</string>
+    <string name="pizza_menu_layout_Chicken_Pizza">Chicken Pizza</string>
+    <string name="pizza_menu_layout_Meat_Pizza">Meat Pizza</string>
+    <string name="pizza_menu_layout_Cheese_Pizza">Cheese Pizza</string>
+    <string name="pizza_menu_layout_Tuna_pizza">Tuna pizza</string>
+    <string name="pizza_menu_layout_Shrimp_pizza">Shrimp pizza</string>
+
+
+    <string name="sandwitch_menu_layout_Cheese_Burger">Cheese Burger</string>
+    <string name="sandwitch_menu_layout_Hawawshi_Sandwich">Hawawshi Sandwich</string>
+    <string name="sandwitch_menu_layout_Kebab_Sandwich">Kebab Sandwich</string>
+    <string name="sandwitch_menu_layout_Kofta_Sandwich">Kofta Sandwich</string>
+    <string name="sandwitch_menu_layout_Meat_Sandwich">Meat Sandwich</string>
+    <string name="sandwitch_menu_layout_Chicken_Sandwich">Chicken Sandwich</string>
+
+
+    mustapha
+
+    <string name="next_btn">Next</string>
+    <string name="to_pay">Assure</string>
+    <string name="drink">Drinks</string>
+    <string name="food">Food</string>
+    <string name="addition">Additions</string>
+    <string name="finish">Finish</string>
+    <string name="price_is">price is :</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="site">Location</string>
+    <string name="result_layout_price_tv">The price :</string>
+
+
+    ---------Yassmen------------
+
+
+    <string name="text_name">Dessert </string>
+    <string name="dessert_menu_moltencake">Molten Cake</string>
+    <string name="dessert_menu_chocolatecake">Chocolate Cake</string>
+    <string name="dessert_menu_travelcake">Travel Cake</string>
+    <string name="dessert_menu_cinabon">Cinabon</string>
+    <string name="dessert_menu_cofeedessert">Coffe Dessert</string>
+    <string name="dessert_menu_cookies">Cookies </string>
+    <string name="dessert_menu_cremecaramel">Creme Caramel</string>
+    <string name="dessert_menu_cupcake">Cup Cake</string>
+    <string name="dessert_menu_donuts">Donuts</string>
+    <string name="dessert_menu_eklereke">Eklerek</string>
+    <string name="dessert_menu_macaron">Macaron</string>
+    <string name="dessert_menu_millefeuille">Mille Feuille</string>
+    <string name="dessert_menu_muffincake">Muffin Cake</string>
+    <string name="dessert_menu_redvelvetcake">Red Velvet Cake</string>
+    <string name="dessert_menu_wafel">Waffle</string>
+
+
+
+    <string name="btn_log"> LOGIN</string>
+    <string name="btn_creat">CREAT ACCOUNT</string>
+    <string name="button">Button</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_create">CREAT ACCOUNT</string>
+    <string name="go_to_menu">GO TO MENU</string>
+
+
+    -----------Hager-------------------
+
+
+    <string name= "second_text">second text</string>
+    <string name= "main_text"> Main text</string>
+    <string name= "coffee"> Coffee </string>
+
+    <string name= "hotchoclet" > HotChocolate </string>
+    <string name= "icedcoffee" > Icedcoffee </string>
+    <string name= "lemon" > Lemon </string>
+    <string name= "mokhito" > Mokhito </string>
+
+    <string name= "orange" > Orange </string>
+    <string name= "latee" > Late </string>
+    <string name= "smozi" > Smozi </string>
+    <string name= "iceoreo" > Icedoreo </string>
+    <string name= "nutella_icedoreo" > Nutella Icedoreo </string>
+
+
+    <string name="show_pass">Show Password</string>
+    <string name="login_layout_create_account_tv">Create Account ..?</string>
+    <string name="go_to_menu_">GO TO MENU</string>
+    <string name="login_layout_sign_in_btn">Login</string>
+    <string name="login_layout_show_pass_cb">Show Password</string>
+    <string name="login_layout_password_et_hint">Enter Your Password</string>
+    <string name="login_layout_mail_et_hint">Enter Your Mail</string>
+    <string name="todo">TODO</string>
+
+</resources>

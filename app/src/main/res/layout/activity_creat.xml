@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/creat_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".creat_activity">
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user_login"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <RelativeLayout
+        android:layout_width="427dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:background="@color/material_dynamic_neutral80"
+            android:hint="ENTER YOUR NAME "
+            android:inputType="text"
+            android:paddingLeft="55dp"
+            android:textColorHint="#546E7A"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="63dp"
+            android:layout_height="72dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toRightOf="@+id/name_text"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:ignore="ImageContrastCheck" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="427dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/_creat_mail_text"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/material_dynamic_neutral80"
+            android:hint="ENTER YOUR MAIL "
+            android:paddingLeft="55dp"
+            android:textColorHint="#546E7A"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="78dp"
+            android:layout_height="49dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@id/_creat_mail_text"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="427dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/phone_text"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/material_dynamic_neutral80"
+            android:ems="10"
+            android:hint="ENTER YOUR PHONE "
+            android:inputType="phone"
+            android:paddingStart="55dp"
+            android:textColorHint="#546E7A"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="9dp"
+            android:layout_toRightOf="@id/phone_text"
+            app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="427dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/_creat_pass_text"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/material_dynamic_neutral80"
+            android:ems="10"
+            android:hint="ENTER YOUR PASSWORD "
+            android:inputType="textPassword"
+            android:paddingLeft="55dp"
+
+            android:textColorHint="#546E7A"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="96dp"
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toRightOf="@id/_creat_pass_text"
+            app:srcCompat="@android:drawable/ic_partial_secure"
+            tools:ignore="ImageContrastCheck" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Gotomenu_btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="@string/go_to_menu_"
+        android:textColor="#9E9E9E"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
